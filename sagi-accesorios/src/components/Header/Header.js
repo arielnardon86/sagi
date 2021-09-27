@@ -15,6 +15,11 @@ const navBar = () => {
                 <li class="nav-item">
                     <a class="nav-link" href="valijitas.html">Valijitas de Arte</a>
                 </li>
+                <li class="nav-item">
+
+                    <a class="nav-link" href="carrito.html"><i class="fas fa-shopping-cart"></i></a>
+                    <span data-toggle="tooltip" data-placement="bottom" title="0" id="contador" class="mostrar"><p class="count"></p></span>
+                </li>
             </ul>
         </div>
     );
