@@ -1,0 +1,26 @@
+.nav-container{
+width: 100%;
+position: sticky;
+top: 0;
+background-color: #f2d0d7;
+display: flex;
+justify-content: left;
+border: black;
+z-index: 2;
+font-size: 20px;
+border-bottom: 5px solid #a8a8a8;
+transition: all 0, 5s;
+}
+.nav-container li{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20px;
+}    
+.nav-container img{
+  flex-wrap: wrap;
+  margin-inline-start: 15px;
+  margin-top: 10px;
+  padding-bottom: 20px;
+  text-decoration: none !important;
+    
+}
