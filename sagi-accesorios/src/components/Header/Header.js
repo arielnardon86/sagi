@@ -4,23 +4,45 @@ import img from "./logo-sagi.png";
 const navBar = () => {
     return (
         <div className="nav-container">
-            <img src={img} alt="logo sagi"></img>
-            <ul>
-                <li class="nav-item">
-                    <a class="nav-link" href="materos.html">Bolsos Materos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contenedores.html">Contenedores</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="valijitas.html">Valijitas de Arte</a>
-                </li>
-                <li class="nav-item">
+          <nav class="navbar navbar-expand-lg navbar-light bg-#8C777B;">
+          
+                <div class="container-fluid">
+                    <a href="index.html"><img src={img} alt="logo sagi" width="100"></img></a>
+                    
 
-                    <a class="nav-link" href="carrito.html"><i class="fas fa-shopping-cart"></i></a>
-                    <span data-toggle="tooltip" data-placement="bottom" title="0" id="contador" class="mostrar"><p class="count"></p></span>
-                </li>
-            </ul>
+                    <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="materos.html">Bolsos Materos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contenedores.html">Contenedores</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="valijitas.html">Valijitas de Arte</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="nececers.html">Necesers</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="billeteras.html">Billeteras</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="accesorios.html">Accesorios</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="barbijos.html">Barbijos</a>
+                            </li>
+                            <li class="nav-item">
+                            
+                                <a class="nav-link" href="carrito.html"><i class="fas fa-shopping-cart"></i></a>
+                                <span1 data-toggle="tooltip" data-placement="bottom" title="0" id="contador" class="mostrar"><p class="count"></p></span1>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+        </nav>
         </div>
     );
 };
