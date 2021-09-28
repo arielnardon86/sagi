@@ -36,7 +36,7 @@ const navBar = () => {
                             <li class="nav-item">
                             
                                 <a class="nav-link" href="carrito.html"><i class="fas fa-shopping-cart"></i></a>
-                                <span1 data-toggle="tooltip" data-placement="bottom" title="0" id="contador" class="mostrar"><p class="count"></p></span1>
+                                
                             </li>
                         </ul>
                     </div>
