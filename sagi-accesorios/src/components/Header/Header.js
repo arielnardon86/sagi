@@ -4,11 +4,11 @@ import img from "./logo-sagi.png";
 const navBar = () => {
     return (
         <div className="nav-container">
-          <nav class="navbar navbar-expand-lg navbar-light bg-#8C777B;">
-          
+            <nav class="navbar navbar-expand-lg navbar-light bg-#8C777B;">
+
                 <div class="container-fluid">
                     <a href="index.html"><img src={img} alt="logo sagi" width="100"></img></a>
-                    
+
 
                     <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -34,15 +34,15 @@ const navBar = () => {
                                 <a class="nav-link" href="barbijos.html">Barbijos</a>
                             </li>
                             <li class="nav-item">
-                            
+
                                 <a class="nav-link" href="carrito.html"><i class="fas fa-shopping-cart"></i></a>
-                                
+
                             </li>
                         </ul>
                     </div>
 
                 </div>
-        </nav>
+            </nav>
         </div>
     );
 };
