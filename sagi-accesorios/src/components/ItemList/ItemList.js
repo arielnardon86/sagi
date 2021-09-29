@@ -1,9 +1,15 @@
 import React from 'react'
-
-const ItemList= () => {
+import "./ItemList.css"
+const ItemList= ({image, name, price}) => {
     return (
-        <div>
-            <p>Catálogo de productos</p>
+        <div className="ItemList-container"
+        style={{backgroundImage: `url(${image})`}}
+        >
+            <div className="ItemList-content">
+                <span className="Item-name">{name}</span>
+                <span className="Item-price">{price}</span>
+            </div>
+    
         </div>
     )
 }

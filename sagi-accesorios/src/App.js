@@ -1,13 +1,12 @@
 import './App.css';
 //componentes
 import Header from "./components/Header/Header";
-import ItemList from './components/ItemList/ItemList';
-
+import Landing from './components/landing/Landing';
 function App() {
   return (
     <div className="App">
       <Header />
-      <ItemList />
+      <Landing />
     </div>
   );
 }
