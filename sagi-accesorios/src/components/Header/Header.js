@@ -1,4 +1,5 @@
 import React from 'react';
+import CartWidget from '../CartWidget.js/CartWidget';
 import "./header.css";
 import img from "./logo-sagi.png";
 const navBar = () => {
@@ -34,9 +35,7 @@ const navBar = () => {
                                 <a class="nav-link" href="barbijos.html">Barbijos</a>
                             </li>
                             <li class="nav-item">
-
-                                <a class="nav-link" href="carrito.html"><i class="fas fa-shopping-cart"></i></a>
-
+                               <CartWidget />
                             </li>
                         </ul>
                     </div>
