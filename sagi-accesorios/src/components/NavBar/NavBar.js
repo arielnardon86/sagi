@@ -1,8 +1,8 @@
 import React from 'react';
 import CartWidget from '../CartWidget.js/CartWidget';
-import "./header.css";
+import "./NavBar.css";
 import img from "./logo-sagi.png";
-const navBar = () => {
+const NavBar = () => {
     return (
         <div className="nav-container">
             <nav class="navbar navbar-expand-lg navbar-light bg-#8C777B;">
@@ -45,5 +45,5 @@ const navBar = () => {
         </div>
     );
 };
-export default navBar;
+export default NavBar;
 
