@@ -4,18 +4,21 @@
       "id": 1,
       "name": "Barbijo Mujer",
       "image": "http://imgfz.com/i/u6P0rRj.png"
+      
     },
     {
       "price": 200,
       "id": 2,
       "name": "Barbijo Liso",
       "image": "http://imgfz.com/i/aFLVuJ5.png"
+      
     },
     {
       "price": 200,
       "id": 3,
       "name": "Barbijo Kids",
       "image": "http://imgfz.com/i/UTsxNub.png"
+      
     }
    
 ]

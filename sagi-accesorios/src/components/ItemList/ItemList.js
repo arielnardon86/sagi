@@ -1,4 +1,5 @@
 import React from 'react'
+import ItemCount from './ItemCount'
 import "./ItemList.css"
 const ItemList= ({image, name, price}) => {
     return (
@@ -9,7 +10,11 @@ const ItemList= ({image, name, price}) => {
                 <span className="Item-name">{name}</span>
                 <span className="Item-price">{price}</span>
             </div>
-    
+            <div className="ItemList-button">
+            
+           <ItemCount />
+          
+            </div>
         </div>
     )
 }
