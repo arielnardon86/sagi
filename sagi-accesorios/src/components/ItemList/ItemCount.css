@@ -1,13 +1,15 @@
-.contador{
+.count{
     display: flex;
     justify-content: center;
+    padding-top: 10px;
     
 }
-.contador p{
+.count p{
+    
     margin: 10px;
     border-radius: 10%;
     
 }
-.contador button{
-    background-color: blue;
+.add{
+    padding-top: 10px;
 }

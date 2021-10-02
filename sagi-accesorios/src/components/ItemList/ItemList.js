@@ -1,7 +1,8 @@
 import React from 'react'
 import ItemCount from './ItemCount'
 import "./ItemList.css"
-const ItemList= ({image, name, price}) => {
+
+const ItemList= ({image, name, price,}) => {
     return (
         <div className="ItemList-container"
         style={{backgroundImage: `url(${image})`}}
@@ -13,7 +14,7 @@ const ItemList= ({image, name, price}) => {
             <div className="ItemList-button">
             
            <ItemCount />
-          
+           
             </div>
         </div>
     )

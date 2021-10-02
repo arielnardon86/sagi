@@ -9,7 +9,7 @@ const landing = () => {
         <div className="landing-container">
            {Items.map((Items)=>(
            <ItemList image={Items.image} name={Items.name} price={Items.price} 
-            key={Items.id} />
+            key={Items.id}/>
            ))}
          </div>
     )
