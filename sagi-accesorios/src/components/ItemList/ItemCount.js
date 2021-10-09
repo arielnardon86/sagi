@@ -4,7 +4,7 @@ import "./ItemCount.css"
 
 
 
-const ItemCount = ({stock=10, initial=0}) => {
+const ItemCount = ({stock, initial=1}) => {
     const [contador, setContador] = useState(parseInt(initial));
     
     const aumentarCantidad = () => {

@@ -1,4 +1,4 @@
-.ItemList-container {
+.ItemList {
     height: 350px;
     width: 300px;
     background-repeat: no-repeat, no-repeat;
@@ -11,7 +11,7 @@
     margin-bottom: 15px;
   }
   
-  .ItemList-container:hover {
+  .ItemList:hover {
     box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.1);
   }
   
